@@ -84,10 +84,8 @@ f(n) &\leq5n^2+3n^2+4n^2,\ where(n^2)\ is\ the\ leading\ term \\
 &\leq cg(n),\ where(n\geq n_0) \\
 \\
 c&=12,\ g(n)=n^2,\ n_0=1 \\
-f(n)&=O(g(n))
+f(n)&=5n^2+3n+4=O(g(n))=O(n^2) \\
 \end{split}$$
-
--->$5n^2+3n+4=O(n^2)$
 
 <br/>
 
@@ -100,11 +98,8 @@ f(n) &\leq3 logn+5logn,\ where(logn)\ is\ the\ leading\ term \\
 &\leq cg(n),\ where(n \geq n_0) \\
 \\
 c&=8,\ n_0=2 \\
-f(n)&=O(g(n))
+f(n)&=3logn+5=O(g(n))=O(logn)
 \end{split}$$
-
--->$3logn+5=O(logn)$
-
 
 ---
 
