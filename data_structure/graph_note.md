@@ -48,7 +48,7 @@ $$
     * There exists a 1-to-1 and onto function f from $G_1$ to $G_2$ such that for any $a, b \in$ $G_1$, a and b are adjacent in $G_1$ iff $f(a)$ and $f(b)$ are adjacent in $G_2$
     * The only way to show that two graphs are isomorphic is to give a bijection
 
-* Two graphs are NOT isomorphic if
+* Two graphs are **NOT** isomorphic if
     * $|V_1| \neq |V_2|$
     * $|E_1| \neq |E_2|$
     * The number of vertices with degree $n$ is **different** in $G_1$ and $G_2$
@@ -112,12 +112,13 @@ $$
 
 ---
 
-### Euler Circuit/Paths
+### Euler Circuits/Paths
 
 * An Euler circuit in a graph $G$ is a simple circuit containing every edge of $G$
 * An Euler path in $G$ is a simple path containing every edge of $G$
+* i.e. focus on edges only
 
-##### Euler Circuits
+##### Euler Circuit
 
 * A connected multigraph with at least two vertices has an Euler circuit if and only if each vertex has even degree
 
@@ -129,7 +130,7 @@ $$
 
 * A Hamilton circuit is a circuit that traverses each vertex in $G$ exactly once
 * A Hamilton path is a path that traverses each vertex in $G$ exactly once
-* i.e. focus vertices
+* i.e. focus on vertices only
 
 ##### Dirac’s theorem
 
