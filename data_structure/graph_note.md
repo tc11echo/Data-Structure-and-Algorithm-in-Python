@@ -44,7 +44,7 @@ $$
 
 ### Isomorphism
 
-* Two graphs $G_1 = V_1, E_1$ and $G_2 = V_2, E_2$ are isomorphic iff
+* Two graphs $G_1 = (V_1, E_1)$ and $G_2 = (V_2, E_2)$ are isomorphic iff
     * There exists a 1-to-1 and onto function f from $G_1$ to $G_2$ such that for any $a, b \in$ $G_1$, a and b are adjacent in $G_1$ iff $f(a)$ and $f(b)$ are adjacent in $G_2$
     * The only way to show that two graphs are isomorphic is to give a bijection
 
@@ -68,7 +68,7 @@ $$
 * Cycles $C_n$ ( $n\geq 3$ )
 	* Vertex number: $n$
 	* Edge number: $n$
-	1. If n is even, $C_n$ is bipartite. If n is odd, $C_n$ is not bipartite
+	1. If $n$ is even, $C_n$ is bipartite. If $n$ is odd, $C_n$ is not bipartite
 
 * Wheels $W_n$ ( $n\geq 3$ )
 	* Vertex number: $n+1$
