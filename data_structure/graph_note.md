@@ -45,15 +45,15 @@ $$
 ### Isomorphism
 
 * Two graphs $G_1 = V_1, E_1$ and $G_2 = V_2, E_2$ are isomorphic iff
-    1. There exists a 1-to-1 and onto function f from $G_1$ to $G_2$ such that for any a, b \in G1, a and b are adjacent in $G_1$ iff f a and f b are adjacent in $G_2$
-    2. The only way to show that two graphs are isomorphic is to give a bijection
+    * There exists a 1-to-1 and onto function f from $G_1$ to $G_2$ such that for any $a, b \in$ $G_1$, a and b are adjacent in $G_1$ iff $f(a)$ and $f(b)$ are adjacent in $G_2$
+    * The only way to show that two graphs are isomorphic is to give a bijection
 
 * Two graphs are NOT isomorphic if
-    1. $|V_1| \neq |V_2|$
-    2. $|E_1| \neq |E_2|$
-    3. The number of vertices with degree $n$ is **different** in $G_1$ and $G_2$
-    4. The **inexistence** of a circuit or simple circuit of length k in 1$G_1$ and $G_2$
-    5. For every proper subgraph $g$ of one graph, there is no proper subgraph of the other graph that is isomorphic to $g$
+    * $|V_1| \neq |V_2|$
+    * $|E_1| \neq |E_2|$
+    * The number of vertices with degree $n$ is **different** in $G_1$ and $G_2$
+    * The **inexistence** of a circuit or simple circuit of length k in $G_1$ and $G_2$
+    * For every proper subgraph $g$ of one graph, there is no proper subgraph of the other graph that is isomorphic to $g$
 
 ---
 
@@ -65,12 +65,12 @@ $$
 	1. $K_1$ not enough to form, $K_2$ is bipartite, $n>2$ is not bipartite
 	2. $K_4$ is planar
 
-* Cycles $C_n$ ($n\geq 3$)
+* Cycles $C_n$ ( $n\geq 3$ )
 	* Vertex number: $n$
 	* Edge number: $n$
 	1. If n is even, $C_n$ is bipartite. If n is odd, $C_n$ is not bipartite
 
-* Wheels $W_n$ ($n\geq 3$)
+* Wheels $W_n$ ( $n\geq 3$ )
 	* Vertex number: $n+1$
 	* Edge number: $2(n+1)$
 	1. No $W_n$ is not bipartite
@@ -116,7 +116,6 @@ $$
 
 * An Euler circuit in a graph $G$ is a simple circuit containing every edge of $G$
 * An Euler path in $G$ is a simple path containing every edge of $G$
-* i.e. focus edges
 
 ##### Euler Circuits
 
