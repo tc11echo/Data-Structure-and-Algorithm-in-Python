@@ -135,4 +135,4 @@
 > &nbsp;&nbsp;&nbsp;&nbsp;$T$ := $T$ with $e$ added
 > **return** $T$ {$T$ is a minimum spanning tree of $G$}
 
-![kruskal.JPG](/data_structure/pic/tree_note_pic/tree_note_prim.jpg)
+![kruskal.JPG](/data_structure/pic/tree_note_pic/tree_note_kruskal.jpg)
