@@ -11,9 +11,11 @@
 * **Degree of Node**: the number of edges that connected to its child
 	> degree of A is 3, degree of F is 2, degree of N is 0
 * **Height of Node**: the number of edges on the longest path from the node to a descendant leaf
-	> the height of F is 1, the height of D is 2, the height of leaf node is 0
+	> height of F is 1, the height of D is 2, the height of leaf node is 0
 * **Depth of Node**: the number of edges from the node to root
 	> depth of F is 2, depth of L is 3
+* **Level of Node**: define the level of root as 0, the level of the remaining nodes is increased by one to the level of its parent
+ 	> level of F is 2
 * **Parent <--> Child**: Indicated by pointer, the pointed node is the child, and the pointing node is the parent
 	> A is C parent, C is A child
 	> E is K parent, K is E child
@@ -38,10 +40,8 @@
 	> height of tree is height of A, which equal 3
 * **Depth of Tree**: the number of edge from one leaf to root
 	> depth of Tree is 3
-* **Level**: Define the level of root as 0, the level of the remaining nodes is increased by one to the level of its parent
 * **Height of Tree = Depth of Tree = Highest Level Number**
-	
-	* $h = max\{ l(v) \},\ v \in V(T),\ level=l(v)$
+	* $h_{tree} = max \( level(v) \),\ v \in V(T)$
 * **Path**: form by the edges between ancestor and descendant
 	> ABEK, ACFN
 * **Subtree**: a subtree of a tree $T$ is a tree $T'$ such that
