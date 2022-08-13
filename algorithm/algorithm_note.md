@@ -28,9 +28,9 @@ The process of measuring the complexity of algorithms is called analysis of algo
 
 
 ### Different Cases of Running time
-* Best-case
+* Best-case (Big Oh-O)
   * The algorithm takes the least time and it can do no better than that
-* Worst-case
+* Worst-case (Big Omega-Ω)
   * The algorithm takes the most time and it can do no worse than that
   * Worst-case count = maximum count
 * Average-case
@@ -59,10 +59,10 @@ $$f(n)\leq cg(n)\ for\ n \geq n_0$$
 * All log are in base2
 
 * The meaning of Big-Oh functions in running time.
-  * O(1) is constant time
-  * O(logn) is logarithmic time
-  * O(n) is linear time
-  * O(n<sup>2</sup>) is quadratic time
+  * O(1) is constant run time
+  * O(logn) is logarithmic run time
+  * O(n) is linear run time
+  * O(n<sup>2</sup>) is exponential run time
 
 
 ### Growth Rate:
