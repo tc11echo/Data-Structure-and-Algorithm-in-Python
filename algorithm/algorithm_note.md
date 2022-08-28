@@ -28,9 +28,9 @@ The process of measuring the complexity of algorithms is called analysis of algo
 
 
 ### Different Cases of Running time
-* Best-case (Big Oh-O)
+* Best-case (Big Omega-Ω)
   * The algorithm takes the least time and it can do no better than that
-* Worst-case (Big Omega-Ω)
+* Worst-case (Big Oh-O)
   * The algorithm takes the most time and it can do no worse than that
   * Worst-case count = maximum count
 * Average-case
