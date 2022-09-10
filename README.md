@@ -16,7 +16,7 @@ Strongly suggest open with Colaboratory
 ---
 
 ### :beginner: Basic Concept
-
+* [Python Environment](https://gist.github.com/tc11echo/92c72aa79bcd039d1035afecbf16b0de#file-python-interpreter-md)
 * [Introduction to Python](/basic_concept/intro_python.ipynb)
 
 ---
