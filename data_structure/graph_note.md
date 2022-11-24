@@ -45,7 +45,7 @@ $$
 ### Isomorphism
 
 * Two graphs $G_1 = (V_1, E_1)$ and $G_2 = (V_2, E_2)$ are isomorphic iff
-    * There exists a 1-to-1 and onto function f from $G_1$ to $G_2$ such that for any $a, b \in$ $G_1$, a and b are adjacent in $G_1$ iff $f(a)$ and $f(b)$ are adjacent in $G_2$
+    * There exists a bijection function $f$ from $G_1$ to $G_2$ such that for any $a, b \in$ $G_1$, a and b are adjacent in $G_1$ iff $f(a)$ and $f(b)$ are adjacent in $G_2$
     * The only way to show that two graphs are isomorphic is to give a bijection
 
 * Two graphs are **NOT** isomorphic if
