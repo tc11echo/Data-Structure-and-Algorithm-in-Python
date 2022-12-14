@@ -160,10 +160,10 @@ $$
 
 ### Graph Coloring
 
-* The Five Color Theorem (五色定理)
+* The Five Color Theorem
     * easy to prove
 
-* The Four Color Theorem (四色定理)
+* The Four Color Theorem
   * hard to prove
   * The chromatic number of a planar graph is no greater than four
 
