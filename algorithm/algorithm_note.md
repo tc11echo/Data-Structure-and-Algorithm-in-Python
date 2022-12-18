@@ -20,11 +20,11 @@
 
 The process of measuring the complexity of algorithms is called analysis of algorithms
 
+* All log are in base2
 
 ### Complexity
 * Time Complexity – The time it takes to execute
 * Space Complexity –The memory it needs to execute
-
 
 ### Different Cases of Running time
 * Best-case
@@ -34,54 +34,77 @@ The process of measuring the complexity of algorithms is called analysis of algo
   * Worst-case count = maximum count
 * Average-case
   * The average case on take typical data
-  * often difficult to determine
+  * Often difficult to determine
 
 ---
 
-### Big-Oh ( $O$ )
+## Big-Oh ( $O$ )
 
 ### Definition
 
-* Given functions $f(n)$ and $g(n)$, we say that $f(n)$ is $O(g(n))$ if there are positive constants $c$ and $n_0$ such that
+Let $f$ and $g$ be functions from the set of positive real numbers to the set of positive real numbers. We say that $f(x)$ is $O(g)$ if there are positive constants $c_2$, and $k$ (whenever $x > k$) such that:
 
-$$f(n)\leq cg(n)\ for\ n \geq n_0$$
+$$
+f(x) \leq c_2 g(x)
+$$
 
-* $cg(n)$ gives the upper-bound on $f(n)$
+* Upper bounded by $c \cdot g(n)$
+* $f(n)$ dominated $g(n)$
 
 ### How to find Big-O:
 
 1. Drop lower-order terms
 2. Drop constant factors
 
-### Properties
 
-* All log are in base2
-
-* The meaning of Big-Oh functions in running time.
-  * O(1) is constant run time
-  * O(logn) is logarithmic run time
-  * O(n) is linear run time
-  * O(n<sup>2</sup>) is exponential run time
-
-### Big-Omega ( $\Omega$ )
+## Big-Omega ( $\Omega$ )
 
 ### Definition
 
-### Big-Theta ( $\Theta$ )
+Let $f$ and $g$ be functions from the set of positive real numbers to the set of positive real numbers. We say that $f(x)$ is $\Omega(g)$ if there are positive constants $c_1$, and $k$ (whenever $x > k$) such that:
+
+$$
+c_1 g(x) \leq f(x)
+$$
+
+* Lower bounded by $c \cdot g(n)$
+* $f(n)$ dominates $g(n)$
+
+
+## Big-Theta ( $\Theta$ )
 
 ### Definition
 
-Let 𝑓 and 𝑔 be functions from the set of positive real numbers to the set of positive real numbers. We say that 𝑓(𝑥) is Θ(𝑔) if there are positive constants 𝐶1, 𝐶2, and 𝑘 such that
+Let $f$ and $g$ be functions from the set of positive real numbers to the set of positive real numbers. We say that $f(x)$ is $\Theta(g)$ if there are positive constants $c_1$, $c_2$, and $k$ (whenever $x > k$) such that:
 
 $$
-C_1 g(x) \leq f(x) \leq C_2 g(x)
+c_1 g(x) \leq f(x) \leq c_2 g(x)
 $$
 
-whenever 𝑥 > 𝑘.
+* Lower bounded by $c_1 \cdot g(n)$ and upper bounded by $c_2 \cdot g(n)$
+* $f(n)$ grows asymptotically with $g(n)$
+
+
+## Relationship between each Notations
+
+$$
+f(x)= \Theta (g(x)) \iff \Bigl[ f(x)= O(f(x)) \wedge f(x)= \Omega(g(x)) \Bigr]
+$$
+
+---
+# More about Big-Oh
+* As we are more common using Big-Oh in Computer Science
 
 ### Growth Rate:
 
-$$1 < log(log(n)) < log(n) < n < nlog(n) < n^2 < n^3 < 2^n < n!$$
+$$
+O(1) < O(log(log(n))) < O(log(n)) < O(n) < O(nlog(n)) < O(n^2) < O(n^3) < O(2^n) < O(n!)
+$$
+
+* $O(1)$ is constant run time
+* $O(logn)$ is logarithmic run time
+* $O(n)$ is linear run time
+* $O(n^2)$ is exponential run time
 
 ![algorithm_note_big_o](/algorithm/pic/algorithm_note_pic/algorithm_note_big_o.png)
 
@@ -149,6 +172,7 @@ $$\begin{align}
 \end{align}$$
 
 ---
+
 # Reference
 
 [Big-O Complexity Chart](https://www.bigocheatsheet.com/)
