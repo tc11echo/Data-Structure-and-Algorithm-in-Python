@@ -6,7 +6,6 @@
 * It is commonly used for data processing, calculation and other related computer and mathematical operations
 
 
-
 ### Types of Algorithm Strategy
 
 * Brute Force Algorithm
@@ -28,9 +27,9 @@ The process of measuring the complexity of algorithms is called analysis of algo
 
 
 ### Different Cases of Running time
-* Best-case (Big Omega-Ω)
+* Best-case
   * The algorithm takes the least time and it can do no better than that
-* Worst-case (Big Oh-O)
+* Worst-case
   * The algorithm takes the most time and it can do no worse than that
   * Worst-case count = maximum count
 * Average-case
@@ -77,29 +76,29 @@ $$1 < log(log(n)) < log(n) < n < nlog(n) < n^2 < n^3 < 2^n < n!$$
 
 **Example1:**
 
-$$\begin{split}
-f(n)&=5n^2+3n+4 \\
+$$\begin{align}
+f(n) &=5n^2+3n+4 \\
 f(n) &\leq5n^2+3n^2+4n^2,\ where(n^2)\ is\ the\ leading\ term \\
 &=12n^2 \\
 &\leq cg(n),\ where(n\geq n_0) \\
 \\
 c&=12,\ g(n)=n^2,\ n_0=1 \\
-f(n)&=5n^2+3n+4=O(g(n))=O(n^2) \\
-\end{split}$$
+f(n) &=5n^2+3n+4=O(g(n))=O(n^2) \\
+\end{align}$$
 
 <br/>
 
 **Example2:**
 
-$$\begin{split}
-f(n)&=3logn+5 \\
+$$\begin{align}
+f(n) &=3logn+5 \\
 f(n) &\leq3 logn+5logn,\ where(logn)\ is\ the\ leading\ term \\
 &=8logn \\
 &\leq cg(n),\ where(n \geq n_0) \\
 \\
 c&=8,\ n_0=2 \\
-f(n)&=3logn+5=O(g(n))=O(logn)
-\end{split}$$
+f(n) &=3logn+5=O(g(n))=O(logn)
+\end{align}$$
 
 ---
 
@@ -124,7 +123,7 @@ The total number of running time is (N)+(N-1)+(N-2)+...+(N-k), and k = N-1 (by c
 
 <br/>
 
-$$\begin{split}
+$$\begin{align}
 \displaystyle\sum_{i=0}^{N-1}(N-i)
 &=\displaystyle\sum_{i=0}^{N-1}N-\displaystyle\sum_{i=0}^{N-1}i \\
 &=N\displaystyle\sum_{i=0}^{N-1}-(0+1+...+(N-1)) \\
@@ -132,7 +131,7 @@ $$\begin{split}
 &=N^2-(\frac{N^2-N}{2}) \\
 &=\frac{N^2}{2}+\frac{N}{2} \\
 &=O(N^2)
-\end{split}$$
+\end{align}$$
 
 ---
 # Reference
