@@ -38,7 +38,7 @@ The process of measuring the complexity of algorithms is called analysis of algo
 
 ---
 
-# Big-O Notation
+### Big-Oh ( $O$ )
 
 ### Definition
 
@@ -63,6 +63,21 @@ $$f(n)\leq cg(n)\ for\ n \geq n_0$$
   * O(n) is linear run time
   * O(n<sup>2</sup>) is exponential run time
 
+### Big-Omega ( $\Omega$ )
+
+### Definition
+
+### Big-Theta ( $\Theta$ )
+
+### Definition
+
+Let 𝑓 and 𝑔 be functions from the set of positive real numbers to the set of positive real numbers. We say that 𝑓(𝑥) is Θ(𝑔) if there are positive constants 𝐶1, 𝐶2, and 𝑘 such that
+
+$$
+C_1 g(x) \leq f(x) \leq C_2 g(x)
+$$
+
+whenever 𝑥 > 𝑘.
 
 ### Growth Rate:
 
