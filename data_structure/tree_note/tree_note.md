@@ -4,7 +4,7 @@
 
 * A tree is a connected undirected graph with no simple circuits
 
-![tree-example.png](/data_structure/pic/tree_note_pic/tree_note_example.png)
+![tree-example.png](tree_note_example.png)
 
 ##### Node/Vertex
 
@@ -15,6 +15,7 @@
 * **Depth of Node**: the number of edges from the node to root
 	> depth of F is 2, depth of L is 3
 * **Level of Node**: define the level of root as 0, the level of the remaining nodes is increased by one to the level of its parent
+
  	> level of F is 2
 * **Parent <--> Child**: Indicated by pointer, the pointed node is the child, and the pointing node is the parent
 	> A is C parent, C is A child
@@ -124,7 +125,7 @@
 > &nbsp;&nbsp;&nbsp;&nbsp;$T$ := $T$ with e added
 > **return** $T$ {$T$ is a minimum spanning tree of $G$}
 
-![prim.JPG](/data_structure/pic/tree_note_pic/tree_note_prim.jpg)
+![prim.JPG](tree_note_prim.jpg)
 
 * Kruskal’s algorithm
 
@@ -135,4 +136,4 @@
 > &nbsp;&nbsp;&nbsp;&nbsp;$T$ := $T$ with $e$ added
 > **return** $T$ {$T$ is a minimum spanning tree of $G$}
 
-![kruskal.JPG](/data_structure/pic/tree_note_pic/tree_note_kruskal.jpg)
+![kruskal.JPG](tree_note_kruskal.jpg)

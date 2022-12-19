@@ -12,11 +12,11 @@ Adjacency lists, Adjacency matrices, Incidence matrices
 
 * Adjacency lists
 
-![graph_note_adjacency_lists](/data_structure/pic/graph_note_pic/graph_note_adjacency_lists.png)
+![graph_note_adjacency_lists](graph_note_adjacency_lists.png)
 
 * Adjacency matrices
 
-![graph_note_adjacency_matrices](/data_structure/pic/graph_note_pic/graph_note_adjacency_matrices.png)
+![graph_note_adjacency_matrices](graph_note_adjacency_matrices.png)
 
 ### Graph Type
 
@@ -44,8 +44,8 @@ $$
 
 ### Isomorphism
 
-* Two graphs $G_1 = (V_1, E_1)$ and $G_2 = (V_2, E_2)$ are isomorphic iff
-    * There exists a bijection function $f$ from $G_1$ to $G_2$ such that for any $a, b \in$ $G_1$, a and b are adjacent in $G_1$ iff $f(a)$ and $f(b)$ are adjacent in $G_2$
+* Two graphs $G_1 = (V_1, E_1)$ and $G_2 = (V_2, E_2)$ are isomorphic $\iff$
+    * There exists a bijection function $f$ from $G_1$ to $G_2$ such that for any $a, b \in$ $G_1$, a and b are adjacent in $G_1$ $\iff$ $f(a)$ and $f(b)$ are adjacent in $G_2$
     * The only way to show that two graphs are isomorphic is to give a bijection
 
 * Two graphs are **NOT** isomorphic if
@@ -101,13 +101,13 @@ $$
 
 ### Connectedness
 
-* An undirected graph is connected iff there is a path between every pair of distinct vertices in the graph
+* An undirected graph is connected $\iff$ there is a path between every pair of distinct vertices in the graph
 * Theorem: There is a simple path between any pair of vertices in a connected undirected graph
     * **Connected components**: connected subgraphs
     * **Cut vertex / Cut edge**: separates 1 connected component into 2 if removed
 
-* A directed graph is strongly connected iff there is a directed path from $a$ to $b$ and from $b$ to $a$, for any two vertices $a$ and $b$
-* It is weakly connected iff the underlying undirected graph (i.e. with edge directions removed) is connected
+* A directed graph is strongly connected $\iff$ there is a directed path from $a$ to $b$ and from $b$ to $a$, for any two vertices $a$ and $b$
+* It is weakly connected $\iff$ the underlying undirected graph (i.e. with edge directions removed) is connected
 * Note strongly implies weakly but not vice-versa
 
 ---

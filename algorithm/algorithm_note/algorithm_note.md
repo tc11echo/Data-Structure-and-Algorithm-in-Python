@@ -106,7 +106,7 @@ $$
 * $O(n)$ is linear run time
 * $O(n^2)$ is exponential run time
 
-![algorithm_note_big_o](/algorithm/pic/algorithm_note_pic/algorithm_note_big_o.png)
+![algorithm_note_big_o](growth_rate.png)
 
 ---
 
@@ -177,6 +177,6 @@ $$\begin{align}
 
 [Big-O Complexity Chart](https://www.bigocheatsheet.com/)
 
-![algorithm_note_big_o1](/algorithm/pic/algorithm_note_pic/algorithm_note_big_o1.png)
+![algorithm_note_big_o1](algorithm_note_big_o1.png)
 
-![algorithm_note_big_o2](/algorithm/pic/algorithm_note_pic/algorithm_note_big_o2.png)
+![algorithm_note_big_o2](algorithm_note_big_o2.png)

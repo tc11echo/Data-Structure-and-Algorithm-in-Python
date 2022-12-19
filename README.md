@@ -28,8 +28,8 @@ Strongly suggest open with Colaboratory
     * Doubly Linked List
     * :construction: Circular Linked List
 * [Stack and Queue](/data_structure/stack_and_queue.ipynb)
-* :construction: [Graph](/data_structure/graph.ipynb) / [Appendix of Graph](/data_structure/graph_note.md)
-* [Tree](/data_structure/tree.ipynb) / [Appendix of Tree](/data_structure/tree_note.md)
+* :construction: [Graph](/data_structure/graph.ipynb) / [Appendix of Graph](/data_structure/graph_note/graph_note.md)
+* [Tree](/data_structure/tree.ipynb) / [Appendix of Tree](/data_structure/tree_note/tree_note.md)
     * Binary Tree Traversal
     * Binary Tree
         * Binary Search Tree
@@ -44,7 +44,7 @@ Strongly suggest open with Colaboratory
 ---
 
 ### :mag: Algorithm
-* [Algorithm and Algorithm Efficiency (Big-O)](/algorithm/algorithm_note.md)
+* [Algorithm and Algorithm Efficiency (Big-O)](/algorithm/algorithm_note/algorithm_note.md)
 * [Sorting](/algorithm/sorting.ipynb)
     * Comparison Sort
         * Selection Sort
